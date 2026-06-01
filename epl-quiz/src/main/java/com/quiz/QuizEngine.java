@@ -37,9 +37,9 @@ public class QuizEngine {
         printBanner();
 
         while (true) {
-            System.out.println("\n  1. 🎮 Start Quiz");
-            System.out.println("  2. 🏆 View Leaderboard");
-            System.out.println("  3. 🚪 Exit");
+            System.out.println("\n  1. Start Quiz");
+            System.out.println("  2. View Leaderboard");
+            System.out.println("  3. Exit");
             System.out.print("\n  Choose an option: ");
 
             String choice = scanner.nextLine().trim();
@@ -47,10 +47,10 @@ public class QuizEngine {
                 case "1": startQuiz(); break;
                 case "2": leaderboard.printLeaderboard(); break;
                 case "3":
-                    System.out.println("\n  ⚽ Thanks for playing! Come on England! 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n");
+                    System.out.println("\n  Thanks for playing! Come on England! 🏴󠁧󠁢󠁥󠁮󠁧󠁿\n");
                     return;
                 default:
-                    System.out.println("  ❌ Invalid option. Please choose 1, 2, or 3.");
+                    System.out.println("  Invalid option. Please choose 1, 2, or 3.");
             }
         }
     }
@@ -68,7 +68,7 @@ public class QuizEngine {
         int score = 0;
         int questionNum = 1;
 
-        System.out.println("\n  ⚽ Let's kick off, " + name + "! " + selected.size() + " questions await.\n");
+        System.out.println("\n  Let's kick off, " + name + "! " + selected.size() + " questions await.\n");
         System.out.println("  ─────────────────────────────────────────");
 
         for (Question q : selected) {
@@ -81,10 +81,10 @@ public class QuizEngine {
             String answer = scanner.nextLine().trim();
 
             if (q.isCorrect(answer)) {
-                System.out.println("  ✅ Correct!");
+                System.out.println("  Correct!");
                 score++;
             } else {
-                System.out.println("  ❌ Wrong! Correct answer: " + q.getAnswer());
+                System.out.println("  Wrong! Correct answer: " + q.getAnswer());
             }
             System.out.println("  Score so far: " + score + "/" + questionNum);
             System.out.println("  ─────────────────────────────────────────");
@@ -97,7 +97,7 @@ public class QuizEngine {
     private void printResult(String name, int score, int total) {
         double pct = (score * 100.0) / total;
         System.out.println("\n╔══════════════════════════════════════╗");
-        System.out.println("║             FULL TIME 🎺               ║");
+        System.out.println("║             FULL TIME                  ║");
         System.out.printf( "║  Player : %-28s║%n", name);
         System.out.printf( "║  Score  : %d/%d  (%.0f%%)%-18s║%n", score, total, pct, "");
         System.out.printf( "║  Rating : %-28s║%n", getRating(pct));
@@ -120,7 +120,7 @@ public class QuizEngine {
     private void printBanner() {
         System.out.println();
         System.out.println("  ╔════════════════════════════════════════╗");
-        System.out.println("  ║   ⚽  EPL QUIZ — 2025/26 SEASON  ⚽    ║");
+        System.out.println("  ║   EPL QUIZ — 2025/26 SEASON   ║");
         System.out.println("  ║    Premier League Edition              ║");
         System.out.println("  ╚════════════════════════════════════════╝");
     }
