@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Who won the Premier League title in the 2024/25 season?",
+    "options": ["Manchester City", "Liverpool", "Arsenal", "Chelsea"],
+    "answer": "Liverpool"
+  },
+  {
+    "question": "Which club was relegated from the Premier League at the end of 2024/25?",
+    "options": ["Brentford", "Ipswich Town", "Bournemouth", "Wolves"],
+    "answer": "Ipswich Town"
+  },
+  {
+    "question": "Who was the Premier League's top scorer in 2024/25?",
+    "options": ["Erling Haaland", "Mohamed Salah", "Cole Palmer", "Alexander Isak"],
+    "answer": "Mohamed Salah"
+  },
+  {
+    "question": "Which stadium is the home ground of Arsenal FC?",
+    "options": ["Stamford Bridge", "Anfield", "Emirates Stadium", "Etihad Stadium"],
+    "answer": "Emirates Stadium"
+  },
+  {
+    "question": "How many teams compete in a Premier League season?",
+    "options": ["18", "20", "22", "24"],
+    "answer": "20"
+  },
+  {
+    "question": "Which club has won the most Premier League titles?",
+    "options": ["Liverpool", "Chelsea", "Arsenal", "Manchester United"],
+    "answer": "Manchester United"
+  },
+  {
+    "question": "Who manages Manchester City in the 2025/26 season?",
+    "options": ["Pep Guardiola", "Mikel Arteta", "Arne Slot", "Ruben Amorim"],
+    "answer": "Pep Guardiola"
+  },
+  {
+    "question": "What is the maximum number of points a team can earn in a 38-game Premier League season?",
+    "options": ["100", "108", "114", "120"],
+    "answer": "114"
+  },
+  {
+    "question": "Which club plays their home matches at Villa Park?",
+    "options": ["Everton", "Aston Villa", "Nottingham Forest", "Leicester City"],
+    "answer": "Aston Villa"
+  },
+  {
+    "question": "Which Premier League club is nicknamed 'The Foxes'?",
+    "options": ["Wolves", "Leicester City", "Brentford", "Crystal Palace"],
+    "answer": "Leicester City"
+  },
+  {
+    "question": "Who is the manager of Liverpool FC for the 2025/26 season?",
+    "options": ["Jurgen Klopp", "Arne Slot", "Graham Potter", "Thomas Tuchel"],
+    "answer": "Arne Slot"
+  },
+  {
+    "question": "Which Premier League club is based in Sunderland?",
+    "options": ["Newcastle United", "Middlesbrough", "Sunderland AFC", "None — Sunderland are not in the EPL"],
+    "answer": "None — Sunderland are not in the EPL"
+  },
+  {
+    "question": "How many points does a team get for a win in the Premier League?",
+    "options": ["1", "2", "3", "4"],
+    "answer": "3"
+  },
+  {
+    "question": "Which club finished as Premier League runners-up in 2024/25?",
+    "options": ["Arsenal", "Manchester City", "Chelsea", "Nottingham Forest"],
+    "answer": "Arsenal"
+  },
+  {
+    "question": "The Premier League was founded in which year?",
+    "options": ["1985", "1988", "1992", "1996"],
+    "answer": "1992"
+  }
+]
