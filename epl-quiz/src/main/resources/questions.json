@@ -2,7 +2,7 @@
   {
     "question": "Who won the Premier League title in the 2024/25 season?",
     "options": ["Manchester City", "Liverpool", "Arsenal", "Chelsea"],
-    "answer": "Liverpool"
+    "answer": "Arsenal"
   },
   {
     "question": "Which club was relegated from the Premier League at the end of 2024/25?",
@@ -10,9 +10,9 @@
     "answer": "Ipswich Town"
   },
   {
-    "question": "Who was the Premier League's top scorer in 2024/25?",
+    "question": "Who was the Premier League's top scorer in 2025/26?",
     "options": ["Erling Haaland", "Mohamed Salah", "Cole Palmer", "Alexander Isak"],
-    "answer": "Mohamed Salah"
+    "answer": "Erling Haaland"
   },
   {
     "question": "Which stadium is the home ground of Arsenal FC?",
