@@ -1,11 +1,11 @@
 # ⚽ EPL Quiz Game — 2025/26 Season
 
-A command-line quiz game about the English Premier League, built with Java and Maven.
+A Spring Boot quiz app with a JavaScript browser UI, built with Java and Maven.
 
 ## Features
 - 15 EPL 2025/26 questions loaded from JSON
 - 10 random questions per game
-- A/B/C/D multiple choice input
+- JavaScript browser UI served by Spring Boot
 - High score leaderboard (top 10, saved to `scores.json`)
 - Rating system based on your score
 
@@ -13,15 +13,13 @@ A command-line quiz game about the English Premier League, built with Java and M
 - Java 11+
 - Maven 3.6+
 
-## Run the Game
+## Run the App
 
 ```bash
-# Build
-mvn clean package
-
-# Run
-java -jar epl-quiz.jar
+mvn -f epl-quiz/pom.xml spring-boot:run
 ```
+
+Then open http://localhost:8080 in your browser.
 
 ## Run Tests
 
@@ -36,13 +34,17 @@ epl-quiz/
 ├── src/
 │   ├── main/
 │   │   ├── java/com/quiz/
-│   │   │   ├── Main.java          # Entry point
-│   │   │   ├── QuizEngine.java    # Game loop
+│   │   │   ├── Main.java          # Spring Boot entry point
+│   │   │   ├── QuizController.java # API endpoints
+│   │   │   ├── QuizService.java    # Quiz/leaderboard logic
 │   │   │   ├── Question.java      # Question model
 │   │   │   ├── ScoreEntry.java    # Score model
 │   │   │   └── Leaderboard.java   # Score persistence
 │   │   └── resources/
-│   │       └── questions.json     # Quiz questions
+│   │       ├── questions.json     # Quiz questions
+│   │       └── static/
+│   │           ├── index.html     # Browser entry page
+│   │           └── app.js         # JavaScript UI
 │   └── test/
 │       └── java/com/quiz/
 │           └── QuizTest.java      # Unit tests
